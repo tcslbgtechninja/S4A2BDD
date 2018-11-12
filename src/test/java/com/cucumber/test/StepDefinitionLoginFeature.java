@@ -28,7 +28,6 @@ public class StepDefinitionLoginFeature{
 
 		//Open the Home page
 		options = new ChromeOptions();
-		options.addArguments("--no-sandbox");
 		options.addArguments("--headless");
 	
 		/*service = new ChromeDriverService.Builder()
