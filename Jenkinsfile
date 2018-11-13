@@ -8,7 +8,7 @@ node('UbuntuBDD'){
 		//def mvnHome = tool name: 'maven-3', type: 'maven'
 		//def mvnCMD = "${mvnHome}/bin/mvn"
 		//sh "${mvnCMD} clean install"
-		sh 'cd /home/ajaydasari/eclipse-workspace/CucumberTests/mvn clean install'	                         
+		sh 'mvn clean install -f /home/ajaydasari/eclipse-workspace/CucumberTests/pom.xml'	                         
 	}
 	
 	stage('Generate BDD Report'){
