@@ -30,6 +30,8 @@ public class StepDefinitionLoginFeature{
 		//Open the Home page
 		options = new ChromeOptions();
 		options.addArguments("--headless");
+		options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
 	
 		/*service = new ChromeDriverService.Builder()
 		        .usingDriverExecutable(new File("/usr/bin/chromedriver"))
