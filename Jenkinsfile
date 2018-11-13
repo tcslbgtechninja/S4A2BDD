@@ -1,4 +1,4 @@
-node('master'){
+node('UbuntuBDD'){
     
     //stage('SCM BDD Checkout'){
 		//git 'https://github.com/techninjas4/assignment2-BDD'              
