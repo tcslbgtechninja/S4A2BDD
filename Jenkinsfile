@@ -12,7 +12,7 @@ node('UbuntuBDD'){
 	}
 	
 	stage('Generate BDD Report'){
-		cucumber fileIncludePattern: '**/*.json', sortingMethod: 'ALPHABETICAL'                
+		cucumber buildStatus: "UNSTABLE", fileIncludePattern: "**/cucumber.json", jsonReportDirectory: "target", sortingMethod: 'ALPHABETICAL'                
 	}
 
 }
