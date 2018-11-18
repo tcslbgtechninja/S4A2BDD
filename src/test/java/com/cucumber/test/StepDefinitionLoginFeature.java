@@ -47,7 +47,7 @@ public class StepDefinitionLoginFeature{
 		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		driver = new ChromeDriver(options);
 		
-		driver.get("http://18.130.25.71:5000");
+		driver.get("http://35.177.103.137:5000");
 				
 		//Text Check
 		String bodyText = driver.findElement(By.tagName("body")).getText();

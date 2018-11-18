@@ -33,7 +33,7 @@ formatter.match({
   "location": "StepDefinitionLoginFeature.application_is_open()"
 });
 formatter.result({
-  "duration": 1944008193,
+  "duration": 13930644536,
   "status": "passed"
 });
 formatter.match({
@@ -50,14 +50,14 @@ formatter.match({
   "location": "StepDefinitionLoginFeature.entered_valid_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 522028671,
+  "duration": 418471404,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionLoginFeature.homepage_is_displayed()"
 });
 formatter.result({
-  "duration": 1040287709,
+  "duration": 934188615,
   "status": "passed"
 });
 formatter.scenario({
@@ -87,7 +87,7 @@ formatter.match({
   "location": "StepDefinitionLoginFeature.application_is_open()"
 });
 formatter.result({
-  "duration": 1080678294,
+  "duration": 1021510557,
   "status": "passed"
 });
 formatter.match({
@@ -104,14 +104,14 @@ formatter.match({
   "location": "StepDefinitionLoginFeature.entered_incorrect_username_and_correct_password(String,String)"
 });
 formatter.result({
-  "duration": 296696910,
+  "duration": 144056114,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionLoginFeature.login_is_failed()"
 });
 formatter.result({
-  "duration": 273647769,
+  "duration": 223266287,
   "status": "passed"
 });
 formatter.scenario({
@@ -141,7 +141,7 @@ formatter.match({
   "location": "StepDefinitionLoginFeature.application_is_open()"
 });
 formatter.result({
-  "duration": 567474105,
+  "duration": 1022410700,
   "status": "passed"
 });
 formatter.match({
@@ -158,14 +158,14 @@ formatter.match({
   "location": "StepDefinitionLoginFeature.entered_correct_username_and_incorrect_password(String,String)"
 });
 formatter.result({
-  "duration": 220669241,
+  "duration": 148979248,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionLoginFeature.login_is_failed()"
 });
 formatter.result({
-  "duration": 312080977,
+  "duration": 277431938,
   "status": "passed"
 });
 });
