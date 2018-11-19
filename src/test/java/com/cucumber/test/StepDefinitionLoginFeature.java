@@ -47,8 +47,12 @@ public class StepDefinitionLoginFeature{
 		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		driver = new ChromeDriver(options);
 		
-		driver.get("http://35.177.103.137:5000");
-				
+		//Accessing app on  my AWS
+		//driver.get("http://35.177.103.137:5000");
+		
+		//Accessing app on Ambadas AWS
+		driver.get("http://35.176.136.254:5000");
+		
 		//Text Check
 		String bodyText = driver.findElement(By.tagName("body")).getText();
 		Assert.assertTrue("Text not found!", bodyText.contains("Login / Register"));
