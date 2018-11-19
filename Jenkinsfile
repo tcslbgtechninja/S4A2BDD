@@ -1,14 +1,13 @@
-node('UbuntuBDD'){
+node('BDDNode'){
     
-    //stage('SCM BDD Checkout'){
-		//git 'https://github.com/techninjas4/assignment2-BDD'              
-	//}
+    stage('SCM BDD Checkout'){
+		git 'https://github.com/tcslbgtechninja/S4A2BDD'              
+	}
 	
-	stage('Maven Build & BDD Execution'){
-		//def mvnHome = tool name: 'maven-3', type: 'maven'
-		//def mvnCMD = "${mvnHome}/bin/mvn"
-		//sh "${mvnCMD} clean install"
-		sh 'mvn clean install -f /home/ajaydasari/eclipse-workspace/CucumberTests/pom.xml'	                         
+	stage('Maven Build for BDD Execution'){
+		def mvnHome = tool name: 'maven-3', type: 'maven'
+		def mvnCMD = "${mvnHome}/bin/mvn"
+		sh "${mvnCMD} clean install"
 	}
 	
 	stage('Generate BDD Report'){
