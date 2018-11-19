@@ -11,7 +11,7 @@ node('BDDNode'){
 	}
 	
 	stage('Generate BDD Report'){
-		cucumber fileIncludePattern: '**/cucumber.json', jsonReportDirectory: '/home/ajaydasari/eclipse-workspace/CucumberTests/target', sortingMethod: 'ALPHABETICAL'                
+		cucumber fileIncludePattern: '**/cucumber.json', jsonReportDirectory: 'target', sortingMethod: 'ALPHABETICAL'                
 	}
 
 }
